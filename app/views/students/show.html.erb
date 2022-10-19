@@ -1,0 +1,8 @@
+<h1><%= @student.name %></h1>
+<br>
+<h3>Courses:<h3>
+<% @courses.each do |course| %>
+<p>
+<%= course.name %>
+</p>
+<% end %>

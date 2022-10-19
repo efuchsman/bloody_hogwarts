@@ -1,13 +1,3 @@
-# User Story 1 of 4
-
-# As a visitor,
-# When I visit '/students',
-# I see a list of students with the following information:
-# -Name
-# -Age
-# -House
-# (e.g. "Name: Casseopia Black, Age: 14, House: Slytherin")
-
 require 'rails_helper'
 
 RSpec.describe "Students Index" do
